@@ -1,7 +1,12 @@
 import './index.scss';
+import Sidebar from '../sidebar';
 
 const Layout = () => {
-    return <>wad up world</>
+    return ( 
+        <>
+            <Sidebar />
+        </>
+    )
 }
 
 export default Layout
